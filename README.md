@@ -4,6 +4,10 @@ Contributors : Andrew Hoang
 
 Date: February 20, 2024
 
+
+## Description
+This project implements a simplified BGP(Border Gateway Protocol) style router that exchanges routing information with neighboring routers, maintains a forwarding table, and routes packets using a provided network simulator.
+
 ## High Level Approach
 - The first thing I did was to look at config files and try and understand the configs to the best of my ability. Then I tried to follow the implementation steps as best as possible and try to always come back to that in order to have guidance. Figuring out how to message handling, route table management
 
